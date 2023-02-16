@@ -35,5 +35,5 @@ elif age<20:
     print('person is a teenager')
 else:
     print('person is an adult')
-if 65<age:
-    print('person is an elder')
+    if age > 65:
+        print('person is an elder')
