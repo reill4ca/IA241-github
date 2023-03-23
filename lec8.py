@@ -14,17 +14,22 @@ function
 #print(cal_plus(2,1))
 #print(input1)
 
-#def cal_abs(a):
+
+
+
+
+
+def cal_abs(a):
     
-    #if type(a) is str:
-        #return ('wrong datatype')
+    if type(a) is str:
+        return ('wrong datatype')
     
-    #elif a >0:
-        #return a
-    #else:
-        #return -a
+    elif a >0:
+        return a
+    else:
+        return -a
         
-#print(cal_abs(468))
+print(cal_abs(468))
 
 def cal_sigma(m,n):
     
